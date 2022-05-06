@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+/* font-display: swap; */
+
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+button{
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.promo {
+    padding-top: 177px;
+    height: 100vh;
+    background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url(/assets/images/eagle.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    color: #fff;
+    text-align: center;
+    
+}
+.promo-title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 1.2;
+    margin-bottom: 116px;
+    text-transform: uppercase;
+}
+
+.promo-subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.5;
+}
+
+.promo-link {
+    max-width: 370px;
+    width: 100%;
+    padding: 30px 145px;
+    border: 1px solid white;
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+
+}

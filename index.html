@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Axit</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css"/>
@@ -15,8 +14,60 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Axit</title>
   </head>
   <body>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo-link">
+            <img class="header__logo-img" src="./assets/img/header/AX.svg" alt="AX">
+            <img class="header__logo-img" src="./assets/img/header/IT.svg" alt="IT">
+          </a>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">features</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">About</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Pricing</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Reviews</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- PROMO -->
+    <section class="promo">
+      <div class="container">
+        <div class="promo__inner">
+            <div class="promo__content">
+              <div class="promo__logo">
+                <img class="promo__logo-img" src="./assets/img/header/AX.svg" alt="AX">
+                <img class="promo__logo-img" src="./assets/img/header/IT.svg" alt="IT">
+              </div>
+            <h1 class="promo__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <p class="promo__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <a class="promo__btn" href="#">Download</a>
+          </div>
+          <form class="promo__form" action="#" method="POST">
+            <p class="promo__form-title">Try Your <span class="promo__form-title-accent">FREE</span> Trial Today</p>
+            <ul class="promo__form-list">
+              <li class="promo__form-item"><input class="promo__form-input" type="text" id="name" name="user_name" placeholder="Name" tabindex="1"></li>
+              <li class="promo__form-item"><input class="promo__form-input" type="email" id="mail" name="user_name" placeholder="Email" tabindex="2"></li>
+              <li class="promo__form-item"><input class="promo__form-input" type="password" id="pass" name="password" placeholder="Password" tabindex="3"></li>
+            </ul>
+            <button class="promo__form-btn">Get Started</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
     <!-- SOCIAL -->
     <section class="social">
       <div class="container">
@@ -29,17 +80,18 @@
             </p>
           </div>
           <ul class="social__links">
-            <li class="social__link"><a href="#"><img class="social__img social__img_size_small" src="./assets/images/social/Vector.svg" alt="facebook"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/twitter_icon.svg" alt="twitter"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/linkedin_icon.svg" alt="linkedin"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/pinterest_icon.svg" alt="pinterest"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/instagram_icon.svg" alt="instagram"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/github_icon.svg" alt="github"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/images/social/rss_icon.svg" alt="rss"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img social__img_size_small" src="./assets/img/social/Vector.svg" alt="facebook"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/twitter_icon.svg" alt="twitter"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/linkedin_icon.svg" alt="linkedin"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/pinterest_icon.svg" alt="pinterest"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/instagram_icon.svg" alt="instagram"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/github_icon.svg" alt="github"></a></1i>
+            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/rss_icon.svg" alt="rss"></a></1i>
           </ul>
         </div>
       </div>
     </section>
+
 
     <!-- ABOUT -->
     <section class="about">
@@ -54,7 +106,7 @@
           <div class="about__cards">
             <div class="about__card">
               <div class="about__card-icon">
-                <img class="about__card-img" src="./assets/images/about/light-bulb.svg" alt="light-bulb" />
+                <img class="about__card-img" src="./assets/img/about/light-bulb.svg" alt="light-bulb" />
               </div>
               <h3 class="about__card-title">Thoughtful Design</h3>
               <p class="about__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -62,7 +114,7 @@
             </div>
             <div class="about__card">
               <div class="about__card-icon">
-                <img class="about__card-img" src="./assets/images/about/keyboard.svg" alt="keyboard" />
+                <img class="about__card-img" src="./assets/img/about/keyboard.svg" alt="keyboard" />
               </div>
               <h3 class="about__card-title">Thoughtful Design</h3>
               <p class="about__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -70,7 +122,7 @@
             </div>
             <div class="about__card">
               <div class="about__card-icon">
-                <img class="about__card-img" src="./assets/images/about/lightning.svg" alt="lightning" />
+                <img class="about__card-img" src="./assets/img/about/lightning.svg" alt="lightning" />
               </div>
               <h3 class="about__card-title">Thoughtful Design</h3>
               <p class="about__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -80,6 +132,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- PRICING -->
     <section class="pricing">
@@ -135,6 +188,7 @@
       </div>
     </section>
 
+
     <!-- REVIEWS -->
     <section class="reviews">
       <div class="container">
@@ -154,7 +208,7 @@
                 quo suscipit.</p>
             </div>
             <div class="review__autor">
-              <img class="review__autor-icon" src="./assets/images/reviews/Davis.svg" alt="Davis" >
+              <img class="review__autor-icon" src="./assets/img/reviews/Davis.svg" alt="Davis" >
               <div class="review__autor__text">
                 <h3 class="review__autor-name">Davis Rhiel Madsen</h3>
                 <p class="review__autor-position">Manager</p>
@@ -170,7 +224,7 @@
                 quo suscipit.</p>
             </div>
             <div class="review__autor">
-              <img class="review__autor-icon" src="./assets/images/reviews/Jadon.svg" alt="Jadon" >
+              <img class="review__autor-icon" src="./assets/img/reviews/Jadon.svg" alt="Jadon" >
               <div class="review__autor__text">
                 <h3 class="review__autor-name">DJaydon Rosser</h3>
                 <p class="review__autor-position">Manager</p>
@@ -186,7 +240,7 @@
                 quo suscipit.</p>
             </div>
             <div class="review__autor">
-              <img class="review__autor-icon" src="./assets/images/reviews/Cooper.svg" alt="Cooper" >
+              <img class="review__autor-icon" src="./assets/img/reviews/Cooper.svg" alt="Cooper" >
               <div class="review__autor__text">
                 <h3 class="review__autor-name">Cooper Dorwart</h3>
                 <p class="review__autor-position">Manager</p>
@@ -197,6 +251,7 @@
       </div>
     </section>
 
+
     <!-- STYLISH -->
     <section class="stylish">
       <div class="container">
@@ -204,15 +259,14 @@
           <div class="section-head section-head_light">
             <h2 class="section-head__title">STYLISH AXURE DESIGN</h2>
             <p class="section-head__subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
             </p>
           </div>
-          <div class="stylish__button">
-            <a class="stylish__download-button" href="#" download="data.csv">Download</a>
-          </div>
+            <a class="stylish__button" href="#" download="data.csv">Download</a>
         </div>
       </div>
     </section>
+    
 
     <!-- FEEDBACK -->
     <section class="feeback">

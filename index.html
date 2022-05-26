@@ -61,7 +61,7 @@
               <li class="promo__form-item"><input class="promo__form-input" type="email" id="mail" name="user_name" placeholder="Email" tabindex="2"></li>
               <li class="promo__form-item"><input class="promo__form-input" type="password" id="pass" name="password" placeholder="Password" tabindex="3"></li>
             </ul>
-            <button class="promo__form-btn">Get Started</button>
+            <button class="promo__form-btn" type="submit">Get Started</button>
           </form>
         </div>
       </div>
@@ -72,22 +72,48 @@
     <section class="social">
       <div class="container">
         <div class="social__info">
-          <div class="social__text">
-            <h2 class="social__title">Social Media</h2>
-            <p class="social__subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.
-            </p>
+          <div class="social__row">
+            <div class="social__text">
+              <h2 class="social__title">Social Media</h2>
+              <p class="social__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
+            <ul class="social__links">
+              <li class="social__link"><a href="#"><img class="social__img social__img_size_small" src="./assets/img/social/Vector.svg" alt="facebook"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/twitter_icon.svg" alt="twitter"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/linkedin_icon.svg" alt="linkedin"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/pinterest_icon.svg" alt="pinterest"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/instagram_icon.svg" alt="instagram"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/github_icon.svg" alt="github"></a></1i>
+              <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/rss_icon.svg" alt="rss"></a></1i>
+            </ul>
           </div>
-          <ul class="social__links">
-            <li class="social__link"><a href="#"><img class="social__img social__img_size_small" src="./assets/img/social/Vector.svg" alt="facebook"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/twitter_icon.svg" alt="twitter"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/linkedin_icon.svg" alt="linkedin"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/pinterest_icon.svg" alt="pinterest"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/instagram_icon.svg" alt="instagram"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/github_icon.svg" alt="github"></a></1i>
-            <li class="social__link"><a href="#"><img class="social__img" src="./assets/img/social/rss_icon.svg" alt="rss"></a></1i>
-          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TABS -->
+    <section class="tabs">
+      <div class="container">
+        <div class="tabs__row">
+          <div class="tabs__tab">
+            <div class="tabs__tab-info">
+              <p class="tabs__tab-title">Tabs with soft transitioning effect.</p>
+              <p class="tabs__tab-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                penatibus et magnis dis parturient montes. <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet.</p>
+                <a href="#" class="tabs__tab-btn">Download</a>
+            </div>
+            <img class="tabs__tab-img" src="./assets/img/tabs/statue.jpg" alt="statue">
+          </div>
+          <!-- <div class="tabs__tab"></div> -->
+          <!-- <div class="tabs__tab"></div> -->
         </div>
       </div>
     </section>
@@ -266,7 +292,35 @@
         </div>
       </div>
     </section>
-    
+
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-head__title">contact us</h2>
+          <p class="section-head__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+          <form class="contact__form" action="#" method="POST">
+            <ul class="contact__form-list">
+              <li class="contact__form-item">
+                <input class="contact__form-input" type="text" id="name" name="user_name" placeholder="Name" tabindex="1">
+              </li>
+              <li class="contact__form-item">
+                <input class="contact__form-input" type="email" id="mail" name="user_name" placeholder="Email" tabindex="2">
+              </li>
+              <li class="contact__form-item">
+                <input class="contact__form-input" type="password" id="pass" name="password" placeholder="Password" tabindex="3">
+              </li>
+            </ul>
+            <textarea class="contact__form-message" name="message" id="text" cols="30" rows="11" placeholder="Message" tabindex="3"></textarea>
+          </form>
+          <a href="#" class="contact__form-btn">Send Message</a>
+      </div>
+    </section>
+
 
     <!-- FEEDBACK -->
     <section class="feeback">

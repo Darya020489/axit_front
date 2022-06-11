@@ -1234,7 +1234,6 @@ ul {
   color: var(--subtitle);
 }
 
-
 .social__links {
   display: flex;
   flex-wrap: wrap;
@@ -1500,7 +1499,6 @@ ul {
   }
 }
 
-
 .about__card {
   margin-top: 71px;
   text-align: center;
@@ -1726,7 +1724,7 @@ ul {
 
 @media (max-width: 1200px) {
   .reviews {
-    padding-bottom: 59px;
+    padding-bottom: 57px;
   }
 }
 
@@ -1878,7 +1876,7 @@ ul {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 560px) {
   .review__autor-position {
     font-size: 13px;
   }
@@ -1937,16 +1935,29 @@ ul {
   padding-bottom: 50px;
 }
 
+@media (max-width: 560px) {
+  .contact {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+}
+
 .contact__form {
 }
 
 .contact__form-list {
-  margin-top: 89px;
+  margin-top: 73px;
 }
 
 @media (max-width: 1200px) {
   .contact__form-list {
-    margin-top: 72px;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact__form-list {
+    margin-top: 48px;
   }
 }
 
@@ -1965,18 +1976,24 @@ ul {
 }
 
 .contact__form-message {
-  margin-top: 89px;
+  margin-top: 73px;
   resize: none;
 }
 
 @media (max-width: 1200px) {
   .contact__form-message {
-    margin-top: 72px;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact__form-message {
+    margin-top: 34px;
+    padding-bottom: 182px;
   }
 }
 
 .contact__form-btn {
-  width: 370px;
   margin: 0 auto;
   margin-top: 50px;
   padding: 17px;
@@ -1984,9 +2001,9 @@ ul {
   line-height: 1.4;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 560px) {
   .contact__form-btn {
-    width: 318px;
+    padding: 13px 30px;
   }
 }
 /* end CONTACT =======================================================================*/
@@ -2001,6 +2018,12 @@ ul {
 @media (max-width: 1200px) {
   .footer {
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer {
+    padding-bottom: 45px;
   }
 }
 
@@ -2024,6 +2047,12 @@ ul {
   }
 }
 
+@media (max-width: 560px) {
+  .footer__link {
+    margin-right: auto;
+  }
+}
+
 .footer__link:last-child {
   margin-right: 0;
 }
@@ -2037,6 +2066,13 @@ ul {
   .footer__img {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer__img {
+    width: 26px;
+    height: 26px;
   }
 }
 
@@ -2059,6 +2095,12 @@ ul {
   }
 }
 
+@media (max-width: 560px) {
+  .footer__info {
+    margin-top: 42px;
+  }
+}
+
 .footer__copyright {
   font-weight: 400;
   font-size: 18px;
@@ -2070,7 +2112,6 @@ ul {
   .footer__copyright {
     font-size: 14px;
     line-height: 1.1;
-    color: rgba(255, 255, 255, 0.5);
   }
 }
 /* end FOOTER =======================================================================*/
